@@ -149,11 +149,16 @@ a {
 }
 
 .plus {
-    font-size: 2.4em;
-    float: right;
-    position: absolute;
-    margin-top: 16vh;
-    margin-right: 7px;
+    /* background-color: yellow; */
+    font-size: 4vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2vw;
+    /* justify-items: end; */
+    /* float: right; */
+    /* position: relative; */
+    /* margin-top: 0vh; */
+    /* margin-right: 0px; */
 }
 
 .mtop {
@@ -218,12 +223,12 @@ a {
 }
 
 .second {
-    height: 40px;
-    width: 300px;
+    height: 3vw;
+    width: 20vw;
     top: 20px;
     border: 2px solid #FD5d5d;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 10vw;
     /* margin: auto; */
 }
 
@@ -232,7 +237,7 @@ a {
     /* margin: auto; */
     /* justify-content: center; */
     text-align: center;
-    font-size: 24px;
+    font-size: 2vw;
     color: #FD5d5d;
 }
 
@@ -243,17 +248,17 @@ a {
     background-color: red;
     margin-right: 10px;
     color: white;
-    font-size: 50px;
+    font-size: 2vw;
 }
 
 .b2 {
     background-color: #FD5d5d;
     content: '\00bb';
     color: white;
-    height: 45px;
-    width: 90px;
+    height: 3.5vw;
+    width: 7vw;
     border-color: #FD5d5d;
-    font-size: 20px;
+    font-size: 2vw;
     border-radius: 50%;
     margin-left: 40%;
     margin-top: 20px;
@@ -331,6 +336,90 @@ a {
         font-size: 8vw;
         font-weight: 100;
         color: grey;
+    }
+    /*------------------------ second page css in mobile view-------------------- */
+    .center2 {
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box2page {
+        width: 80%;
+        height: 60vh;
+        border: 2px solid orange;
+        border-radius: 10px;
+        box-shadow: 10px 10px lightgray;
+    }
+    .heading2 {
+        border-bottom: 2px solid grey;
+        margin-left: 20vw;
+        padding-bottom: 1vw;
+        font-size: 5vw;
+        color: orangered;
+        /* text-align: center; */
+    }
+    .line2 {
+        padding-bottom: 10px;
+        font-size: 5vw;
+        color: red;
+        text-decoration-line: line-through;
+        text-align: center;
+    }
+    .task2 {
+        text-align: center;
+        margin-left: 18vw;
+        /* margin-bottom: 20px; */
+        font-size: 5vw;
+    }
+    #check {
+        width: 4vw;
+        height: 4vw;
+    }
+    .mtop {
+        margin-top: 7vw;
+        /* position: fixed; */
+        /* display: inline-block; */
+    }
+    .m2 {
+        /* margin-top: 100px; */
+        /* margin-left: 37%; */
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        /* border-bottom: 1px solid #000; */
+        border: none;
+        /* display: inline-block; */
+        line-height: 0.2em;
+        /* margin: 30px 0 20px 0px; */
+        font-size: 7vw;
+        font-family: 'Roboto', sans-serif;
+    }
+    .span {
+        background: #fff;
+        padding: 0 15px;
+    }
+    .m22 {
+        /* text-align: center; */
+        position: relative;
+        /* margin: 4vw; */
+        bottom: 12vw;
+        right: 28vw;
+        color: grey;
+        font-size: 2em;
+        font-family: 'Roboto', sans-serif;
+        /* display: inline; */
+    }
+    .solid {
+        color: #FD5d5d;
+        padding: 15px;
+    }
+    .plus {
+        font-size: 8vw;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 17vw;
     }
 }
 
@@ -413,8 +502,9 @@ a {
         align-items: center;
     }
     .box2page {
+        box-sizing: border-box;
         width: 80%;
-        height: 60vh;
+        height: 65vh;
         border: 2px solid orange;
         border-radius: 10px;
         box-shadow: 10px 10px lightgray;
@@ -478,12 +568,9 @@ a {
         padding: 15px;
     }
     .plus {
-        font-size: 2em;
-        /* float: right; */
-        position: relative;
-        bottom: 5vw;
-        right: 2vw;
-        /* margin-top: 15vh; */
-        /* margin-right: 7px; */
+        font-size: 4vw;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 2vw;
     }
 }
